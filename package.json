@@ -1,0 +1,21 @@
+{
+  "name": "sparkit---backend",
+  "version": "1.0.0",
+  "description": "server for sparkit",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "author": "Ignacio Gea",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^1.17.3"
+  },
+  "dependencies": {
+    "concurrently": "^3.5.1",
+    "express": "^4.16.2",
+    "body-parser": "^1.18.2",
+    "mongoose": "^5.0.15"
+  }
+}
